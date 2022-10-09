@@ -7,8 +7,6 @@ int qtd_dados_rolados = 1;
 
 void Window::onCreate() {
   auto const &windowSettings{getWindowSettings()};
-  fmt::print("Initial window size: {}x{}\n", windowSettings.width,
-             windowSettings.height);
 
 }
 
@@ -62,8 +60,6 @@ void Window::onPaintUI() {
         std::string aux_valores_rolados = "";
         int soma_valores_rolados = 0;
         int valor_rolado;
-
-        fmt::print("Entrou na rolagem: {}\n", comboItems.at(currentIndex));
         
         if (comboItems.at(currentIndex) == "D4") {
           range_max = 4;

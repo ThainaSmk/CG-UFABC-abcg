@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
     // Create OpenGL window
     Window window;
     window.setWindowSettings(
-        {.width = 600, .height = 600, .title = "Roll the Dices"});
+        {.width = 700, .height = 300, .title = "Roll the Dices"});
 
     // Run application
     app.run(window);
