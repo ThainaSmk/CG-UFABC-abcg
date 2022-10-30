@@ -1,7 +1,7 @@
-#version 410
+#version 300 es
 
-in vec4 fragColor;
+in mediump vec4 fragColor;
 
-out vec4 outColor;
+out mediump vec4 outColor;
 
 void main() { outColor = fragColor; }

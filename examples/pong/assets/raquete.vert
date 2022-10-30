@@ -1,4 +1,4 @@
-#version 410
+#version 300 es
 
 layout(location = 0) in vec2 inPosition;
 
@@ -7,7 +7,7 @@ uniform float rotation;
 uniform float scale;
 uniform vec2 translation;
 
-out vec4 fragColor;
+out mediump vec4 fragColor;
 
 void main() {
   float sinAngle = sin(rotation);
