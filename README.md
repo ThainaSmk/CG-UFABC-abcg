@@ -7,4 +7,12 @@ Foi implementado seguindo os exemplos da aula "tictactoe" e lendo a documentaç�
 
 Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/rollTheDices/)
 
+------------------------------------------
+### Segunda entrega: "PONG!"
+Implementação de um jogo clássico PONG! para dois jogadores. O jogador da esquerda (Rosa) pode controlar a raquete com o W e S e o jogador da direita (Roxo) controla com as setas para cima e para baixo. O jogo acaba quando alguém fizer 10 pontos e reinicia.
 
+A implementação seguiu os exemplos da aula de Asteroids, criando uma classe Bola, Raquete do Jogador 1 e Raquete do Jogador 2. A cor da bola mudando de acordo com a direção além de estético tem utilidade prática no código, pois havia um bug durante o update que poderia causar o registro de colisão de forma anormal, repetidas vezes - fazendo com que a bola "entrasse" na raquete. Com isso, ao registrar o primeiro impacto a bola fica com a mesma cor da raquete e registra a colisão apenas uma vez. Essa solução foi implementada na chamada do update da bola (em bola.cpp) na função "setCorBola" passando um vetor RGBA e alterando a propriedade m_color da Bola.
+
+Os demais itens do projeto foram implementados de forma simples, a colisão verifica se a bola está rebatendo no topo e no piso da janela para inverter a direção de Y da bola e verifica se está batendo nos limites da raquete para inverter a direção de X. 
+
+Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/pong/)
