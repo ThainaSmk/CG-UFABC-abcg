@@ -16,3 +16,11 @@ A implementação seguiu os exemplos da aula de Asteroids, criando uma classe Bo
 Os demais itens do projeto foram implementados de forma simples, a colisão verifica se a bola está rebatendo no topo e no piso da janela para inverter a direção de Y da bola e verifica se está batendo nos limites da raquete para inverter a direção de X. 
 
 Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/pong/)
+
+------------------------------------------
+### Terceira entrega: "Solar System"
+
+A implementação seguiu os exemplos da aula de lookat, utilizando um arquivo .obj feito no Blender para o sistema inteiro. A ideia é na pŕoxima entrega utilizar um classe Model para fazer um modelo para cada planeta e com isso acrescentar as texturas do planeta em .mtl e adicionar uma animação de rotação para cada um deles e uma iluminação partindo do Sol. 
+Para se movimentar pelo sistema utiliza os botões W e A para andar para frente e trás, A e D para mover a câmera para os lados e Q e E para andar lateralmente.
+
+Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/solar_system/)
