@@ -24,6 +24,7 @@ A implementação seguiu os exemplos da aula de lookat, utilizando um arquivo .o
 Para se movimentar pelo sistema utiliza os botões W e A para andar para frente e trás, A e D para mover a câmera para os lados e Q e E para andar lateralmente. Utilizando R você pode voltar para a posição original.
 
 Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/solar_system/)
+
 ------------------------------------------
 ### Quarta entrega: "Solar System Final"
 
