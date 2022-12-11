@@ -24,3 +24,10 @@ A implementação seguiu os exemplos da aula de lookat, utilizando um arquivo .o
 Para se movimentar pelo sistema utiliza os botões W e A para andar para frente e trás, A e D para mover a câmera para os lados e Q e E para andar lateralmente. Utilizando R você pode voltar para a posição original.
 
 Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/solar_system/)
+------------------------------------------
+### Quarta entrega: "Solar System Final"
+
+A implementação seguiu os exemplos da aula de lookat e de texturização, utilizando um arquivo .obj feito no Blender para cada planeta. Foi criado uma classe Model para instanciar cada planeta, utilizando a função "loadObj" para cada arquivo .obj. Houve uma dificuldade para fazer a questão da ilumincação/sombra e o movimento dos planetas ao redor do Sol, e devido ao tempo para entrega, não foi possível implementar.
+Para se movimentar pelo sistema utiliza os botões W e A para andar para frente e trás, A e D para mover a câmera para os lados e Q e E para andar lateralmente. Utilizando R você pode voltar para a posição original.
+
+Link para aplicação rodando em WebAssembly: [link](https://thainasmk.github.io/CG-UFABC-abcg/solar_system_final/)
